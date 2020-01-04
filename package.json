@@ -1,0 +1,16 @@
+{
+	"name": "keycodes-map",
+	"version": "1.0.0",
+	"description": "Simple Javascript helper object to work with keyboard keyCodes with ease",
+	"main": "index.js",
+	"keywords": [
+		"Javascript",
+		"constants",
+		"object",
+		"keyboard",
+		"keycodes",
+		"event"
+	],
+	"author": "Vladimir Blagojevic",
+	"license": "MIT"
+}
