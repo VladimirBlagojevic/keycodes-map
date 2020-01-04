@@ -123,13 +123,11 @@ export const keys = {
 };
 
 export function isLetter(key) {
-	const { a, z } = keys;
-	return key >= a && key <= z ? true : false;
+	return key >= keys.a && key <= keys.z;
 }
 
 export function isNumber(key) {
-	const { num0, num9, numpad0, numpad9 } = keys;
-	return (key >= num0 && key <= num9) || (key >= numpad0 && key <= numpad9) ? true : false;
+	return (key >= keys.num0 && key <= keys.num9) || (key >= keys.numpad0 && key <= keys.numpad9);
 }
 
 export function isAlphanumeric(key) {
